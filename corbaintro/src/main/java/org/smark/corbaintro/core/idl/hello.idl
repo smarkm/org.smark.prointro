@@ -1,0 +1,15 @@
+module org{ 
+      module smark{ 
+	        module corbaintro{ 
+	        	 module service{ 
+	        		 module corba{ 
+	        			interface HelloService{ 
+				                string sayHello(); 
+				                oneway void shutdown(); 
+				        }; 
+	 				 };
+	 			 };
+	        }; 
+	  };
+};
+
