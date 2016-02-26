@@ -17,6 +17,12 @@ public class ORBUtil {
 	}
 	
 	public static void init(String[]args, Properties props){
+		/**
+		 * Properties props = new Properties();
+	        props.put("org.omg.CORBA.ORBInitialPort", "1050");
+	        props.put("org.omg.CORBA.ORBInitialHost", "localhost");
+	        ORB orb = ORB.init(args, props);
+		 */
 		instance =ORB.init(args, props);
 	}
 	
