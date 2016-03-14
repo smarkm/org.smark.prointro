@@ -8,5 +8,6 @@
   <module>rap</module>
   <module>corbaintro</module>
   <module>springintro</module>
+  <module>python3intr</module>
   </modules>
 </project>

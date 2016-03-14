@@ -2,7 +2,7 @@ module org{
       module smark{ 
 	        module corbaintro{ 
 	        	 module service{ 
-	        		 module corba{ 
+	        		 module idl{ 
 	        			interface HelloService{ 
 				                string sayHello(); 
 				                oneway void shutdown(); 

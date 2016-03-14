@@ -1,13 +1,9 @@
-import org.omg.CORBA.ORB;
 import org.omg.CosNaming.NameComponent;
-import org.omg.CosNaming.NamingContextExt;
-import org.omg.CosNaming.NamingContextExtHelper;
 import org.omg.PortableServer.POA;
-import org.omg.PortableServer.POAHelper;
 import org.smark.corbaintro.core.util.ORBUtil;
 import org.smark.corbaintro.service.HelloServiceCorbaImpl;
-import org.smark.corbaintro.service.corba.HelloService;
-import org.smark.corbaintro.service.corba.HelloServiceHelper;
+import org.smark.corbaintro.service.idl.HelloService;
+import org.smark.corbaintro.service.idl.HelloServiceHelper;
 
 //java MainClass -ORBInitialPort 2050
 public class Server {

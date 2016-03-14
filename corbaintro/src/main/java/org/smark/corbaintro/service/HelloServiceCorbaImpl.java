@@ -1,6 +1,6 @@
 package org.smark.corbaintro.service;
 
-import org.smark.corbaintro.service.corba.HelloServicePOA;
+import org.smark.corbaintro.service.idl.HelloServicePOA;
 
 public class HelloServiceCorbaImpl extends HelloServicePOA {
 
