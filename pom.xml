@@ -9,5 +9,6 @@
   <module>corbaintro</module>
   <module>springintro</module>
   <module>python3intr</module>
+  <module>intro-eclipselink</module>
   </modules>
 </project>

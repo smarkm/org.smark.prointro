@@ -4,8 +4,8 @@ import org.omg.CosNaming.BindingListHolder;
 import org.omg.CosNaming.NameComponent;
 import org.omg.CosNaming.NamingContextExt;
 import org.smark.corbaintro.core.util.ORBUtil;
-import org.smark.corbaintro.service.corba.HelloService;
-import org.smark.corbaintro.service.corba.HelloServiceHelper;
+import org.smark.corbaintro.service.idl.HelloService;
+import org.smark.corbaintro.service.idl.HelloServiceHelper;
 
 //java HelloClient -ORBInitialHost localhost -ORBInitialPort 2050
 public class Client {
